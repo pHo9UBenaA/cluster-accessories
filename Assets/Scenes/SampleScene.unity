@@ -215,7 +215,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -299,7 +299,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2957863602652139663
 PrefabInstance:
@@ -308,9 +308,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3042018546152655468, guid: 4344b548a34114d939bd975443909036, type: 3}
+      propertyPath: defaultAttachBoneName
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042018546152655468, guid: 4344b548a34114d939bd975443909036, type: 3}
+      propertyPath: defaultAttachOffsetPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042018546152655468, guid: 4344b548a34114d939bd975443909036, type: 3}
+      propertyPath: defaultAttachOffsetPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5102679433154073269, guid: 4344b548a34114d939bd975443909036, type: 3}
       propertyPath: m_Name
       value: Penguin
+      objectReference: {fileID: 0}
+    - target: {fileID: 6634794087468589269, guid: 4344b548a34114d939bd975443909036, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6634794087468589269, guid: 4344b548a34114d939bd975443909036, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6634794087468589269, guid: 4344b548a34114d939bd975443909036, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7752125402767673241, guid: 4344b548a34114d939bd975443909036, type: 3}
       propertyPath: m_RootOrder
