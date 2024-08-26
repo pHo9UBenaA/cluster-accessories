@@ -7,6 +7,10 @@ https://assetstore.unity.com/packages/3d/characters/animals/lovely-animals-pack-
 1. からのオブジェクトを作成し、その中に元々あったプレハブを入れる
 2. それ自体をプレハブにする（ドラッグ&ドロップ）
 3. アップロードしようとすると以下のエラー
+  * `ArgumentException: Value does not fall within the expected range.`
+    * プレハブにItemコンポーネントが紐づいていなかった
+    * 紐づいけて再度アップロードしても失敗した
+    * 再度プレハブを作り直し（ドラッグ&ドロップし直し）たら上手く行った
   * アニメーション使えないよ
     * アニメーションは普通に剥がした（紐づいていたアニメーションのコンポーネントを削除）
   * MeshRendererしかサポートしてないよ
