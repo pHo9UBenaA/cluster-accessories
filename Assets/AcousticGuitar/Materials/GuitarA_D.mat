@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GuitarA_D
-  m_Shader: {fileID: 4800000, guid: 6570e9c909bc04188bf2115012ebbbbe, type: 3}
+  m_Shader: {fileID: 4800000, guid: 1a97144e4ad27a04aafd70f7b915cedb, type: 3}
   m_ValidKeywords:
   - _NORMALMAP
   m_InvalidKeywords:
