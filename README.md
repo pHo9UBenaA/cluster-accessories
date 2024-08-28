@@ -14,7 +14,7 @@ https://assetstore.unity.com/packages/3d/characters/animals/lovely-animals-pack-
   * アニメーション使えないよ
     * アニメーションは普通に剥がした（紐づいていたアニメーションのコンポーネントを削除）
   * MeshRendererしかサポートしてないよ
-    * SkinnedMeshBakerというツールでMeshRendererに変換して、SkinnedMeshRendererがついていたコンポーネントを削除した
+    * [SkinnedMeshBaker](https://summer2022.vket.com/docs/submission_tips_skinned_mesh_baker)というツールでMeshRendererに変換して、SkinnedMeshRendererがついていたコンポーネントを削除した
   * (別件)AssetのVRM内にあるMToonと、Clusterクリエーターキットに入っているMToonが競合することによりエラー
     * Clusterクリエイターキットの方がReadOnlyになっていたのでVRMの中のMToonを削除
     * ピンク色になったやつは別のシェーダーが選択されていたので、改めてMToonを付け直し
